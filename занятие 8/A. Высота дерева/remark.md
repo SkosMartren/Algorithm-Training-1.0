@@ -3,7 +3,11 @@
 //код: https://www.cyberforum.ru/cpp-beginners/thread1607763.html  
 // https://ru.stackoverflow.com/questions/474/%D0%93%D0%BB%D1%83%D0%B1%D0%B8%D0%BD%D0%B0-%D0%B8-%D0%B2%D1%8B%D1%81%D0%BE%D1%82%D0%B0-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%B0  
 //решение задач: https://github.com/topics/yandex-algorithm-trainings?l=c%2B%2B  
-
+/*
+https://leetcode.com/problems/balanced-binary-tree/discuss/198107/easy-to-understand-calculate-height-on  
+https://leetcode.com/problems/maximum-depth-of-binary-tree/  
+https://www.geeksforgeeks.org/binary-search-tree-data-structure/
+*/
 #include <iostream>
 
 struct Node {

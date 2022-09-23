@@ -6,6 +6,14 @@
 /*
 https://leetcode.com/problems/balanced-binary-tree/discuss/198107/easy-to-understand-calculate-height-on  
 https://leetcode.com/problems/maximum-depth-of-binary-tree/  
+
+int maxDepth(TreeNode* root) {
+        if(!root) return 0;
+        int maxLeft = maxDepth(root->left);
+        int maxRight = maxDepth(root->right);
+        return max(maxLeft, maxRight)+1;
+    }
+
 https://www.geeksforgeeks.org/binary-search-tree-data-structure/
 */
 #include <iostream>

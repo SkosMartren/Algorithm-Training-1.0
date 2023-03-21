@@ -31,7 +31,23 @@ Node* add(Node* tr, int data) {
 void Inorder(Node* tr) {
 
 	if (tr == nullptr) { return; }
+	
+	// good
+	/*
+	if (tr->left == nullptr && nullptr == tr->right) {
+	cout << tr->value << '\n';
+	}
+	*/
+	
 	Inorder(tr->left);
+	
+	// good
+	/*
+	if (tr->left == nullptr && nullptr == tr->right) {
+	cout << tr->value << '\n';
+	}
+	*/
+	
 	Inorder(tr->right);
 
 	if (tr->left == nullptr && nullptr == tr->right) {

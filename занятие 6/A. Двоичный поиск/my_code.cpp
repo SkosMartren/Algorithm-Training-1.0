@@ -11,9 +11,8 @@ int main() {
 	vector<int> Nums(N);
 	
 	for (int& num : Nums) {cin >> num;}
-
-	int target;
-	while (cin >> target) {
+	
+	for (int target; cin >> target;) {
 		
 		if(target < Nums.front() || Nums.back() < target){cout << "NO\n"; continue;}
 

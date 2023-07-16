@@ -1,4 +1,6 @@
+#include<string>
 #include<iostream>
+#include<vector>
 
 using namespace std;
 
@@ -19,7 +21,9 @@ int main() {
 
 		const ull mid = (Right + Left) / 2;
 
-		if (2 * (5 * mid + Sum) >= 7 * (Count + mid)) { // 2 * (5 * mid + Sum) >= 7 * (Count + mid)
+		// "итоговая оценка была не меньше 4 баллов." <--> среднее арифметическое оценок >= 3.5 так как "Если среднее значение находится ровно посередине между двумя целыми числами, то оценка округляется вверх."
+		// 2 * (5 * mid + Sum) >= 7 * (Count + mid) <--> (5 * mid + Sum) >= 3.5 * (Count + mid) <--> (5 * mid + Sum) / (Count + mid) >= 3.5 <--> (2 * a + 3 * b + 4 * c + 5 * mid) / (a + b + c + mid) >= 3.5
+		if (2 * (5 * mid + Sum) >= 7 * (Count + mid)) { 
 			Right = mid;
 		}
 		else {

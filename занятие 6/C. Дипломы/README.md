@@ -5,6 +5,8 @@
 
 [Поиск и сортировка: Бинарный поиск по ответу — условия задач](https://informatics.msk.ru/mod/statements/view.php?id=1966#1)
 
+[РЕШЕНИЕ бинарный поиск](https://site.ada.edu.az/~medv/acm/Docs%20e-olimp/Volume%2040/3969.htm)
+
 Формула
 
     (mid / w) * (mid / h) >= n

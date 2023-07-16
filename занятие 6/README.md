@@ -1,1 +1,1 @@
-https://contest.yandex.ru/contest/27844/enter/?retPage=
+https://contest.yandex.ru/contest/27844/problems/
